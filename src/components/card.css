@@ -1,0 +1,18 @@
+input {
+    border-radius: 22px;
+    margin: 0 auto;
+    display: block;
+}
+
+.task-card {
+    background-color: lightgrey;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid grey;
+    width: 100%;
+}

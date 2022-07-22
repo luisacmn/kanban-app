@@ -2,13 +2,6 @@ h3{
     text-align: center;
 }
 
-input {
-    border: 1px solid lightgray;
-    border-radius: 22px;
-    margin: 0 auto;
-    display: block;
-}
-
 .button {
     display:block;
     height: 30px;
@@ -19,6 +12,7 @@ input {
     text-align: center;
     margin: auto;
 }
+
 
 
 
