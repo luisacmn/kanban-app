@@ -1,9 +1,10 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
+import { TiDelete } from 'react-icons/ti';
+
 import "./card.css"
 
-const Card = ( ) => {
+const Card = ({ onClick }) => {
     const [input, setInput] = useState("");             //Armazenar o que é digitado no Input
-    const [task, setTask] = useState([])
 
     const inputChange = (e) => {
         setInput(e.target.value)
@@ -11,8 +12,9 @@ const Card = ( ) => {
 
     return (
         <div className="task-card">
-            <input onChange={inputChange}/>
-            <p>{task}</p>
+            <input type="checkbox" className="checkbox" />
+            <input onChange={inputChange} />
+            <button onClick={onClick} className="del-btn"><TiDelete size={20} /></button>
         </div>
     )
 }

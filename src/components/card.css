@@ -1,18 +1,41 @@
 input {
-    border-radius: 22px;
-    margin: 0 auto;
     display: block;
+    background-color: transparent;
+    text-align: left;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 22px;
+    width: 80%;
+    padding-left: 18px;
 }
+
+input:focus { 
+    outline: none !important;
+    border-color: none;
+ }
 
 .task-card {
-    background-color: lightgrey;
-    height: 50px;
+    background-color: white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    display: flex;
+    width: 70%;
+    box-shadow: rgb(0 0 0 / 2%) 0px 0px 0px 1px, rgb(0 0 0 / 5%) 0px 1px 2px 0px, rgb(0 0 0 / 5%) 0px 2px 8px 0px;
 }
 
-input {
-    background-color: transparent;
-    border: 1px solid grey;
-    width: 100%;
+.del-btn{
+    display:block;
+    border: none;
+    text-align: center;
+    margin: auto 5px;
+    background-color: white;
+    padding: 0;
+}
+
+.checkbox{
+    margin: auto 10px;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border: lightgray;
 }

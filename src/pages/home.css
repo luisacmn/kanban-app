@@ -1,5 +1,19 @@
+.row {
+    padding-top: 30px;
+}
+
 img {
    max-width: 100%;
    height: auto;
 }
 
+div h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 90px;
+    font-size: 60px;
+}
+
+div p{
+    font-size: 20px;
+}

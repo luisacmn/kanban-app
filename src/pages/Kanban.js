@@ -5,10 +5,10 @@ const Kanban = () => {
 
     return (
         <div className="container-fluid">
-            <div className="row">
-                <Column title="ToDo"/> 
-                <Column title="Doing"/>
-                <Column title="Done"/>
+            <div className="row" id="kanban-row">
+                <Column title="ToDo" /> 
+                <Column title="Doing" />
+                <Column title="Done" />
             </div>
         </div>
     )
