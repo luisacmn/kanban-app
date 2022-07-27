@@ -1,3 +1,14 @@
+# About
+
+Responsive Kanban project developed in React JS using bootstrap (not finished)
+
+Requirements:
+- Navigate between pages (Home and Kanban) - OK
+- Create, Delete, Read and Update Projects
+- Create, Delete, Read and Update Tasks (CRUD functionality) - OK
+- Drag and Drop functionality
+- Storage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
