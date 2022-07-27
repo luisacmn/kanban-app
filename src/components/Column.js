@@ -6,7 +6,8 @@ import "./column.css"
 const Column = ( {title} ) => {
     const [arr, setArr] = useState([]);                 //Array de itens. Cada item criará um elemento DOM/Componente (Card)
     const [counter, setCounter] = useState(0)           //Contador para acrescentar ao array de itens. 
-
+    const [value, setValue] = useState()
+    
     const createCard = () => {                         //Criar um array com items(números). Para cada item, 
         setCounter(counter + 1)
         setArr((prev) => {
@@ -29,7 +30,7 @@ const Column = ( {title} ) => {
             <p>Tasks: {counter}</p>
             <button onClick={createCard} className="add-button">+</button>
             {arr.map((item) => (
-                <Card key={item.id} onClick={() => handleRemove(item.id)}/>
+                <Card key={item.id} onClick={() => handleRemove(item.id)} />
             ))}
 
         </div>

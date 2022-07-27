@@ -2,16 +2,18 @@ input {
     display: block;
     background-color: transparent;
     text-align: left;
-    border: 1px solid rgb(230, 230, 230);
-    border-radius: 22px;
+    border: 0;
+    padding-left: 8px;
     width: 80%;
-    padding-left: 18px;
 }
 
-input:focus { 
-    outline: none !important;
-    border-color: none;
- }
+input:hover {
+    cursor: text;
+}
+
+input:focus {
+    outline: none;
+}
 
 .task-card {
     background-color: white;
@@ -20,6 +22,7 @@ input:focus {
     margin: 10px auto;
     display: flex;
     width: 70%;
+    height: 60px;
     box-shadow: rgb(0 0 0 / 2%) 0px 0px 0px 1px, rgb(0 0 0 / 5%) 0px 1px 2px 0px, rgb(0 0 0 / 5%) 0px 2px 8px 0px;
 }
 
